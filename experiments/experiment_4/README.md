@@ -23,7 +23,7 @@ The `code` folder contains my python code in keras library for finding the gradi
 
 The `result` folder contains the result in each `case`. The `figures` folder shows reconstructed EGMs each at every drop of a ECG in the input. The names of files, for example `1_123.png` and `2_63.png` refer to the first drop of only the 123rd ECG and the second drop of both the 123rd and 63rd ECG. The `socks.mat` show the order of ECGs to drop in each case and `pcc.mat` is the Pearson Correlation Coefficient at each drop.
 
-## **Layer Configuration and Paramters**
+## **Layer Configuration and Parameters**
 Same as experiment 3
 
 ## **Result**

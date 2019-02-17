@@ -13,8 +13,6 @@ This repo is part of the summer research program at the University of Auckland -
 |     |----calculateCorrelation.m
 |     |----computePCA.m
 |----experiments
-|     |----figures
-|     |----README.md
 |----keras
 |----report.pdf
 |----README.md
