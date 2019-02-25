@@ -12,6 +12,7 @@ This repo is part of the summer research program at the University of Auckland -
 |     |----visualize_histogram_distribution.m
 |     |----calculateCorrelation.m
 |     |----computePCA.m
+|     |----occlusion.m
 |----experiments
 |----keras
 |----report.pdf
@@ -29,6 +30,7 @@ This repo is part of the summer research program at the University of Auckland -
 + `visualize_histogram_distribution.m` function to visualize the weight distribution in histogram
 + `calculateCorrelation.m` function to calculate the Pearson Correlation Coefficient (PCC) between the true and predicted EGM
 + `computePCA.m` function to reduce the dimension (here: the number of ECGs) to ones that best explain the ECG set
++ `occlusion.m` function to monitor the PCC when setting values of some ECG satisfying certain condition to 0
 
 5. `experiment` folder containing details of important experiments with figures and results. There will be subfolders for each experiment:
 + `experiment_1`: parameter search for constructing LSTM model
