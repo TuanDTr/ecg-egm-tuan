@@ -39,6 +39,6 @@ This repo is part of the summer research program at the University of Auckland -
 + `experiment_4`: looking for the useful ECGs in reconstructing EGM
 + `experiment_5`: computing the activation time for the new dataset.
 
-6. `keras` folder containing code in python. This set of codes is intended for the encoder-decoder solution to solve the sequence to sequence solution. The code includes encoder-decoder script with and without teacher forcing. Read the README inside this folder for more insights.
+6. `keras` folder containing code in python. This set of codes is intended for the encoder-decoder solution to solve the sequence to sequence solution. The code includes encoder-decoder script with and without teacher forcing.
 7. `report.pdf` the final report
 
