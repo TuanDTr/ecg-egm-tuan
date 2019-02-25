@@ -6,16 +6,21 @@ This experiment aims to compute the activation time for the new dataset. Initial
 ## **Directory**
 ```bash
 |----figures
-|    |----sock_AT
-|    |----ECGi_AT
-|    |----ours_AT
+|    |----ECGi_AT_Laura_data_exp16
+|    |----predicted_EGM_AT_exp16
+|    |----sock_AT_Laura_data_exp16
+|    |----sock_AT_my_technique_exp16
 |----net
 |    |----net_LVpacing.mat
 |    |----net_RVpacing.mat
 |    |----net_BiVpacing.mat
 |----README.md
 ```
-The `net` folder contains all the models trained on 4 pacings as cross-validation. The `figures` contains the heat map of activation time for sock (`sock_AT`), Laura's solution (`ECGi_AT`) and our solution (`ours_AT`).
+The `net` folder contains all the models trained on 4 pacings as cross-validation. The `figures` contains the following folders:
++ `ECGi_AT_Laura_data_exp16`: Activation time heat map of ECGi from Laura's data 
++ `predicted_EGM_AT_exp16`: Predicted Activation Time heat map on the new data of Exp 16. The net used for prediction has been trained on the old data (exp20) but with modification in order to be validated on new data (exp16)
++ `sock_AT_Laura_data_exp16`: Activation time heat map of average beat data from Laura's activation data 
++ `sock_AT_my_technique_exp16`: Activation time heat map of average beat data using my technique to estimate
 
 ## **Layer Configuration**
 1. Input Layer [122 x 700]
